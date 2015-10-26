@@ -71,6 +71,10 @@ The `find` function get the chord name from a list of notes. All the notes of th
 chords.find('c g a d2 e G5') // => 'M69'
 ```
 
+#### More...
+
+Read the [generated documentation](https://github.com/danigb/music.chords/blob/master/API.md) or take a look to [music.kit](https://github.com/danigb/music.kit)
+
 ## License
 
 MIT License
