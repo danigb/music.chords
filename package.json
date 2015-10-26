@@ -35,5 +35,7 @@
     "vows": "^0.8.1"
   },
   "dependencies": {
+    "music.harmonizer": "0.0.4",
+    "music.pitchset": "0.0.2"
   }
 }

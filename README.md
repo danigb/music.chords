@@ -5,6 +5,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![npm version](https://img.shields.io/npm/v/music.chords.svg)](https://www.npmjs.com/package/music.chords)
 [![license](https://img.shields.io/npm/l/music.chords.svg)](https://www.npmjs.com/package/music.chords)
+[![distribution](https://img.shields.io/badge/dist-12.7kb-blue.svg)]()
 [![music.kit](https://img.shields.io/badge/music-kit-yellow.svg)](https://www.npmjs.com/package/music.kit)
 
 A dictionary of chords:
