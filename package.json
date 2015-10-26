@@ -1,0 +1,39 @@
+{
+  "name": "music.chords",
+  "version": "0.0.0",
+  "description": "A dictionary of music chords",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows --spec test/*.js",
+    "docs": "docme API.md",
+    "dist": "browserify index.js | uglifyjs > dist/chords.min.js&& ls -all dist/",
+    "disc": "browserify --full-paths index.js | uglifyjs | discify > tmp/disc.html",
+    "coverage": "istanbul cover vows test/*.js",
+    "cover": "npm run coverage && open ./coverage/lcov-report/index.html",
+    "benchmarks": "node test/benchmarks/*.js",
+    "climate": "npm run coverage && npm run codeclimate",
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=fcfefb53aa586b904e50df4da52d6dc294182107e236117758c3a048b17491ce codeclimate-test-reporter < coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/music.chords.git"
+  },
+  "keywords": [
+    "music",
+    "chords",
+    "chord",
+    "dictionary",
+    "music.kit"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/music.chords/issues"
+  },
+  "homepage": "https://github.com/danigb/music.chords#readme",
+  "devDependencies": {
+    "vows": "^0.8.1"
+  },
+  "dependencies": {
+  }
+}
